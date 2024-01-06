@@ -1,0 +1,9 @@
+p{
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    font-size: 25px;
+}
+.professor{
+    margin-top: 40px;
+}

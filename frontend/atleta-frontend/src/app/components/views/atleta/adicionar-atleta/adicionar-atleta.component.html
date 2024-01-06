@@ -1,0 +1,9 @@
+<div class="adicionar-atleta">
+    <input type="text" placeholder="nome"[(ngModel)]="nome">
+    <input type="date" placeholder="data de assinatura" [(ngModel)]="dataAssinatura">
+    <input type="date" placeholder="data de vencimento" [(ngModel)]="dataDeVencimento">
+    <input type="number" placeholder="id do professor"[(ngModel)]="professor.id">
+    <button (click)="adicionarAtleta()">Adicionar Com Professor</button>
+    <button (click)="adicionarAtletaSemProfessor()">Adicionar Sem Professor</button>
+</div>
+

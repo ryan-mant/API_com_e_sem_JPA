@@ -1,0 +1,14 @@
+.adicionar-atleta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.adicionar-atleta button, input{
+    width: 400px;
+    height: 40px;
+    align-items: center;
+    margin: 5px;
+    font-size: 25px;
+}

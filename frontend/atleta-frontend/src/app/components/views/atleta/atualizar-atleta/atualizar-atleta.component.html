@@ -1,0 +1,9 @@
+<div class="atualizar-atleta">
+    <input type="number" placeholder="id" [(ngModel)]="id">
+    <input type="text" placeholder="nome" [(ngModel)]="nome">
+    <input type="date" placeholder="data de assinatura" [(ngModel)]="dataAssinatura">
+    <input type="date" placeholder="data de vencimento" [(ngModel)]="dataDeVencimento">
+    <input type="number" placeholder="id do professor" [(ngModel)]="professor.id">
+    <button (click)="atualizarAtleta()">Atualizar</button>
+    <button (click)="atualizarAtletaSemProfessor()">Atualizar Sem Professor</button>
+</div>

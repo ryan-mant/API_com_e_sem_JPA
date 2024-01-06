@@ -1,0 +1,7 @@
+<div class="listar-atleta" *ngFor="let atleta of atletas">
+    <p>Nome: {{atleta.nome}}</p>
+    <p>Id: {{atleta.id}}</p>
+    <p>Data da Assinatura: {{atleta.dataAssinatura}}</p>
+    <p>Data de Vencimento: {{atleta.dataDeVencimento}}</p>
+    <p *ngIf="atleta.professor !== null">Professor(a): {{atleta.professor?.nome}}</p>
+</div>

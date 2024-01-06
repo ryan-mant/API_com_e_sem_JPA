@@ -1,0 +1,8 @@
+<div class="listar-professor" *ngFor="let professor of professores">
+    <p>Nome: {{professor.nome}}</p>
+    <p>Id: {{professor.id}}</p>
+    <ul>Alunos:
+        <p *ngFor="let aluno of professor.alunos">{{aluno.nome}};</p>
+    </ul>
+    
+</div>

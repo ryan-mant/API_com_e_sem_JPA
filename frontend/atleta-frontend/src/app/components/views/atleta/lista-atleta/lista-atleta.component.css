@@ -1,0 +1,11 @@
+.listar-atleta{
+    display: flex;
+    border: 1px solid lightblue;
+    margin: 10px;
+    background-color: white;
+    width: 530px;
+}
+.listar-atleta p{
+    margin: 10px;
+    color: black;
+}
