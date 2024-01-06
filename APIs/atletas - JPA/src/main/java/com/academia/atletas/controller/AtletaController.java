@@ -25,11 +25,11 @@ public class AtletaController {
     public ResponseEntity<Optional<Atleta>> findById(@PathVariable int id){
         return ResponseEntity.status(HttpStatus.OK).body(atletaService.findById(id));
     }
-    @PostMapping
+    @PostMapping("/adicionar-atleta")
     public ResponseEntity<Atleta> save(@RequestBody Atleta atleta){
         return ResponseEntity.status(HttpStatus.CREATED).body(atletaService.save(atleta));
     }
-    @PutMapping
+    @PutMapping("atualizar-atleta")
     public ResponseEntity<Atleta> update(@RequestBody Atleta atleta){
         return ResponseEntity.status(HttpStatus.OK).body(atletaService.update(atleta));
     }
