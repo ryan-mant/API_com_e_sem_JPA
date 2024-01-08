@@ -1,0 +1,13 @@
+.adicionar-pacote{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.adicionar-pacote input, button{
+    margin: 10px;
+    padding: 10px;
+}

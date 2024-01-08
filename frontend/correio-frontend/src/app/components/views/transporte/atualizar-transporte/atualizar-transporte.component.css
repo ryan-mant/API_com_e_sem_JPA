@@ -1,0 +1,14 @@
+.atualizar-transporte{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.atualizar-transporte input, button{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}

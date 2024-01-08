@@ -1,0 +1,5 @@
+<div class="container" *ngFor="let transporte of transportes">
+    <p>nome: {{transporte.nome}}</p>
+    <p>id: {{transporte.id}}</p>
+    <p *ngFor="let pacote of transporte.pacotes">pacotes: {{pacote.nome}}</p>
+</div>

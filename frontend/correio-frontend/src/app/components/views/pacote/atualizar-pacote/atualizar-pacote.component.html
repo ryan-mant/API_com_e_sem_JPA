@@ -1,0 +1,8 @@
+<div class="atualizar-pacote">
+    <input type="number" placeholder="id do pacote que deseja atualizar" [(ngModel)]="id">
+    <input type="text" placeholder="novo nome" [(ngModel)]="nome">
+    <input type="text" placeholder="novo nome do recebedor" [(ngModel)]="nomeDoRecebedor">
+    <input type="text" placeholder="novo endereço do recebedor" [(ngModel)]="enderecoDoRecebedor">
+    <input type="number" placeholder="novo id da transportadora" [(ngModel)]="transporte.id">
+    <button (click)="atualizarPacote()">Atualizar</button>
+</div>
