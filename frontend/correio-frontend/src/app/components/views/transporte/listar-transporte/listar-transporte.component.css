@@ -2,9 +2,12 @@
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    width: 400px;
+    background-color: cornflowerblue;
 }
 .container p{
     margin: 10px;
     display: flex;
     justify-content: center;
+    color: white;
 }
