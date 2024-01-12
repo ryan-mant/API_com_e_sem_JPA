@@ -1,0 +1,5 @@
+<div class="container" *ngFor="let linha of linhas">
+    <p>id: {{linha.id}}</p>
+    <p>nome: {{linha.nome}}</p>
+    <p *ngFor="let metro of linha.metros"> metrôs: {{metro.id}}</p>
+</div>
