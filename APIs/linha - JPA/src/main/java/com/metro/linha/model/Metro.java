@@ -15,7 +15,7 @@ public class Metro {
 
     @NotNull
     private String estacaoDeInicio;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "linha_id")
     @JsonIgnoreProperties("metros")
     private Linha linha;

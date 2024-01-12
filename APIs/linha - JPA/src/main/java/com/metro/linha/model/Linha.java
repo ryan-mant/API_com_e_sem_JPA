@@ -15,7 +15,7 @@ public class Linha {
     @NotNull
     private String nome;
 
-    @OneToMany(mappedBy = "linha")
+    @OneToMany(mappedBy = "linha", fetch = FetchType.EAGER)
     @JsonIgnoreProperties("linha")
     private List<Metro> metros;
 
